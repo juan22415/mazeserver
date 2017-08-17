@@ -3,7 +3,7 @@ const url = require('url');
 const fs = require('fs');
 const router = require('./router');
 const requests = require('./requests');
-const port = 8888;
+const port = process.env.PORT || 3000;
 
 var routes = {};
 routes['/'] = requests.index;
