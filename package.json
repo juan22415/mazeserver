@@ -1,0 +1,17 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "Este es nuestro primer servidor en Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Juan David Nicholls",
+  "license": "MIT",
+  "dependencies": {
+    "@mitchallen/maze-generator-square": "^0.1.12",
+    "bluebird": "^3.5.0",
+    "nylira-maze": "^0.4.0"
+  },
+  "devDependencies": {}
+}
