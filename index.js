@@ -11,8 +11,8 @@ const port = process.env.PORT || 3000;
 const server = http.createServer((request, response) => {
 
   var query = url.parse(request.url).query;
-  var width = query.width;
-  var height = query.height;
+  var width = 20//query.width;
+  var height = 20//query.height;
 
 fs.readFile(fechadehoy+'.txt',function(err, content)
   {
