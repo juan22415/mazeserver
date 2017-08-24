@@ -1,8 +1,8 @@
-var maze = require('nylira-maze');
-var laberinto = maze(20, 20, 'growingtree:newest', 0.47, undefined, false);
-var labString = renderMaze(laberinto)
-console.log(labString);
-exports.labString = labString
+//var maze = require('nylira-maze');
+//var laberinto = maze(20, 20, 'growingtree:newest', 0.47, undefined, false);
+//var labString = renderMaze(laberinto)
+//console.log(labString);
+//exports.labString = labString
 
 function renderMaze(grid) {
   var width = grid[0].length

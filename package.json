@@ -11,6 +11,7 @@
   "dependencies": {
     "@mitchallen/maze-generator-square": "^0.1.12",
     "bluebird": "^3.5.0",
+    "moment": "^2.18.1",
     "nylira-maze": "^0.4.0"
   },
   "devDependencies": {}

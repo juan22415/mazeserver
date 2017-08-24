@@ -44,3 +44,7 @@
 /
 /maze
 /maze
+/
+/maze
+/maze
+/
