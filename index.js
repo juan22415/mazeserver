@@ -21,7 +21,6 @@ fs.readFile(fechadehoy+'.txt',function(err, content)
       content = DoMaze(width,height);
       var Mazefile = fs.createWriteStream(fechadehoy+'.txt',{'flags':'a'});
       Mazefile.write(content);
-      content=content.toString();
     }
   
     response.write(content);
